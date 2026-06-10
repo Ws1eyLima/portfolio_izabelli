@@ -716,7 +716,7 @@ export default async function Home({
                 <span className="text-sm font-semibold">{copy.footer.email}</span>
               </Link>
               <Button asChild variant="secondary">
-                <Link href="/assets/izabelli-profile.pdf" target="_blank">
+                <Link href="/assets/izabelli-soriano-cv.pdf" target="_blank">
                   <Download className="h-4 w-4" />
                   {copy.footer.profile}
                 </Link>

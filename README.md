@@ -38,7 +38,7 @@ npm run typecheck
 
 - Favicon: `app/icon.png`
 - Foto: `public/assets/izabelli.jpeg`
-- PDF do perfil: `public/assets/izabelli-profile.pdf`
+- Currículo: `public/assets/izabelli-soriano-cv.pdf`
 
 ## Deploy na Vercel
 

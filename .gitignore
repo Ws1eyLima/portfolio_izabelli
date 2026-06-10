@@ -20,6 +20,7 @@ pnpm-debug.log*
 # Arquivos fonte usados durante a montagem local. As versões usadas pelo site
 # ficam em app/icon.png e public/assets/.
 /Profile.pdf
+/izabelliSoriano_CV.pdf
 /favicon.png
 /ideia.png
 /izabelli.jpeg
