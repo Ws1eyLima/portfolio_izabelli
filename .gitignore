@@ -1,0 +1,25 @@
+.next
+node_modules
+out
+dist
+.vercel
+.agents
+.codex
+
+.env
+.env.local
+.env.*.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+*.tsbuildinfo
+
+# Arquivos fonte usados durante a montagem local. As versões usadas pelo site
+# ficam em app/icon.png e public/assets/.
+/Profile.pdf
+/favicon.png
+/ideia.png
+/izabelli.jpeg
