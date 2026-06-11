@@ -47,7 +47,7 @@ export function ProjectImageCarousel({ images }: { images: readonly ProjectImage
             <button
               type="button"
               onClick={showNext}
-              aria-label="Proxima imagem"
+              aria-label="Próxima imagem"
               className="absolute right-3 top-1/2 grid h-10 w-10 -translate-y-1/2 place-items-center rounded-full border bg-white/90 text-slate-800 shadow-sm transition-colors hover:bg-white"
             >
               <ChevronRight className="h-5 w-5" />
