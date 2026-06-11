@@ -61,17 +61,6 @@ export function Projects({ language }: ProjectsProps) {
                     
                     <TabsContent value="overview" className="flex-1 mt-4 animate-in fade-in-50 duration-500">
                       <p className="leading-7 text-slate-700 text-sm md:text-base">{project.description}</p>
-
-                      <div className="mt-6 grid gap-3 sm:grid-cols-2">
-                        {project.metrics.map(([value, label]) => (
-                          <div key={label} className="rounded-md border border-slate-200/60 bg-slate-50/50 p-4 transition-colors hover:bg-white hover:border-slate-300">
-                            <strong className="block text-2xl text-slate-950">{value}</strong>
-                            <span className="mt-1 block text-[11px] font-bold uppercase tracking-[0.12em] text-slate-500">
-                              {label}
-                            </span>
-                          </div>
-                        ))}
-                      </div>
                     </TabsContent>
 
                     <TabsContent value="specs" className="flex-1 mt-4 animate-in fade-in-50 duration-500 space-y-6">
