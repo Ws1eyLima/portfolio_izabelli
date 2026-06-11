@@ -34,11 +34,11 @@ export const content = {
       language: "Selecionar idioma",
     },
     hero: {
-      eyebrow: "Dados, BI e decisão estratégica",
+      eyebrow: "BI, dados e análise de negócios",
       title: "Data & Business Intelligence Analyst",
       description:
-        "Transformo dados complexos em lucro e eficiência operacional. Utilizo Power BI, SQL e Python para eliminar processos manuais, construir relatórios executivos em tempo real e desenhar estratégias que resolvem dores reais de negócio.",
-      stack: "Power BI • SQL • Python • Análise Financeira • Processos de ETL",
+        "Analista de Dados e Business Intelligence com atuação em finanças, operações e inteligência comercial. Experiência na construção de dashboards, automações e relatórios gerenciais que organizam dados dispersos, reduzem processos manuais e apoiam decisões estratégicas com indicadores confiáveis.",
+      stack: "Power BI • SQL • Python • DAX • Power Query • Análise Financeira",
       projectCta: "Ver projetos",
       contactCta: "Entrar em contato",
       resumeCta: "Ver currículo",
@@ -288,10 +288,10 @@ export const content = {
       language: "Select language",
     },
     hero: {
-      eyebrow: "Data, BI and strategic decision-making",
+      eyebrow: "BI, data and business analysis",
       title: "Data & Business Intelligence Analyst",
       description:
-        "I turn financial, operational and commercial data into dashboards, automations and analyses that help business teams make clearer decisions.",
+        "Data and Business Intelligence Analyst with experience across finance, operations and commercial intelligence. Skilled in building dashboards, automations and management reports that organize scattered data, reduce manual processes and support strategic decisions with reliable indicators.",
       stack: "Power BI • Python • SQL • DAX • Power Query • Financial Analysis",
       projectCta: "View projects",
       contactCta: "Get in touch",
