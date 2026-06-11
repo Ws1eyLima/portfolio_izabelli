@@ -39,6 +39,21 @@ npm run typecheck
 - Favicon: `app/icon.png`
 - Foto: `public/assets/izabelli.jpeg`
 - Currículo: `public/assets/izabelli-soriano-cv.pdf`
+- Print do projeto Painel de Custos com Pessoal: `public/assets/projects/painel-custos-pessoal.jpeg`
+- Prints do projeto Validador de Dados Automatizado:
+  - `public/assets/projects/validador-dados-com-erros.jpeg`
+  - `public/assets/projects/validador-dados-sem-erros.jpeg`
+- Prints do projeto Mapeamento de Prospecção B2B:
+  - `public/assets/projects/prospeccao-b2b-capa.jpeg`
+  - `public/assets/projects/prospeccao-b2b-overview.jpeg`
+  - `public/assets/projects/prospeccao-b2b-prioridades.jpeg`
+  - `public/assets/projects/prospeccao-b2b-pipeline.jpeg`
+- Prints do projeto Mercado de Internet via Satélite:
+  - `public/assets/projects/starlink-hughes-capa.jpeg`
+  - `public/assets/projects/starlink-hughes-mercado.jpeg`
+  - `public/assets/projects/starlink-hughes-regional.jpeg`
+  - `public/assets/projects/starlink-hughes-velocidade.jpeg`
+  - `public/assets/projects/starlink-hughes-tendencias.jpeg`
 
 ## Deploy na Vercel
 
