@@ -14,7 +14,7 @@ interface HeaderProps {
 export function Header({ language, isEnglish }: HeaderProps) {
   const copy = content[language];
   const activeSection = useActiveSection(
-    ["home", "sobre", "experiencia", "credenciais", "projetos", "skills", "contato"],
+    ["home", "credenciais", "projetos", "skills", "contato"],
     "home"
   );
 
@@ -31,11 +31,9 @@ export function Header({ language, isEnglish }: HeaderProps) {
     <header className="sticky top-0 z-50 border-b bg-white/90 backdrop-blur">
       <nav className="section-shell flex h-16 items-center justify-between gap-6">
         <Link href={anchor("home")} className="font-serif text-2xl font-bold text-slate-950">
-          Izabelli
+          Izabelli Soriano
         </Link>
         <div className="hidden items-center gap-7 text-sm font-medium md:flex">
-          <Link href={anchor("sobre")} className={getLinkClass("sobre")}>{copy.nav.about}</Link>
-          <Link href={anchor("experiencia")} className={getLinkClass("experiencia")}>{copy.nav.experience}</Link>
           <Link href={anchor("credenciais")} className={getLinkClass("credenciais")}>{copy.nav.credentials}</Link>
           <Link href={anchor("projetos")} className={getLinkClass("projetos")}>{copy.nav.projects}</Link>
           <Link href={anchor("skills")} className={getLinkClass("skills")}>{copy.nav.skills}</Link>

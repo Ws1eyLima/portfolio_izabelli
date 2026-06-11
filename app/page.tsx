@@ -2,8 +2,6 @@ import { Metadata } from "next";
 import { Language } from "@/lib/translations";
 import { Header } from "@/components/sections/header";
 import { Hero } from "@/components/sections/hero";
-import { About } from "@/components/sections/about";
-import { Experience } from "@/components/sections/experience";
 import { Credentials } from "@/components/sections/credentials";
 import { Projects } from "@/components/sections/projects";
 import { Skills } from "@/components/sections/skills";
@@ -69,8 +67,6 @@ export default async function Home({
     <main className="min-h-screen bg-slate-50">
       <Header language={language} isEnglish={isEnglish} />
       <Hero language={language} anchor={anchor} />
-      <About language={language} />
-      <Experience language={language} />
       <Credentials language={language} />
       <Projects language={language} />
       <Skills language={language} />

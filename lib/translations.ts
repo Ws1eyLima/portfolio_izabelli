@@ -27,8 +27,6 @@ export type IconName = keyof typeof iconMap;
 export const content = {
   pt: {
     nav: {
-      about: "Sobre",
-      experience: "Experiência",
       credentials: "Credenciais",
       projects: "Projetos",
       skills: "Competências",
@@ -39,58 +37,11 @@ export const content = {
       eyebrow: "Dados, BI e decisão estratégica",
       title: "Data & Business Intelligence Analyst",
       description:
-        "Transformo dados financeiros, operacionais e comerciais em dashboards, automações e análises que ajudam áreas de negócio a decidir com mais clareza.",
-      stack: "Power BI • Python • SQL • DAX • Power Query • Análise Financeira",
+        "Transformo dados complexos em lucro e eficiência operacional. Utilizo Power BI, SQL e Python para eliminar processos manuais, construir relatórios executivos em tempo real e desenhar estratégias que resolvem dores reais de negócio.",
+      stack: "Power BI • SQL • Python • Análise Financeira • Processos de ETL",
       projectCta: "Ver projetos",
       contactCta: "Entrar em contato",
-    },
-    about: {
-      title: "Sobre",
-      paragraphs: [
-        "Analista de Dados Financeiros Pleno, com atuação focada em transformar dados financeiros e operacionais em indicadores claros para apoiar decisões estratégicas.",
-        "Atua no Grupo JR8 com análises financeiras, controles de recebíveis e relatórios gerenciais. Recentemente, liderou um projeto orientado a dados que reduziu a inadimplência da empresa de 4% para 1%. Sua trajetória combina BI, gestão de contas, trade marketing, PCP e administração, conectando análise técnica às necessidades reais do negócio.",
-      ],
-      highlights: [
-        "Analista de Dados Financeiros Pleno no Grupo JR8",
-        "Experiência em BI, gestão de contas, trade marketing, PCP e rotinas administrativas",
-        "Atuação com conciliação bancária, relatórios gerenciais e redução de inadimplência (de 4% para 1%)",
-      ],
-    },
-    experience: {
-      eyebrow: "Trajetória",
-      title: "Experiência profissional",
-      description:
-        "Perfil construído entre financeiro, BI, gestão de contas e operações, com foco em transformar dados dispersos em visão executiva, processos mais confiáveis e indicadores acionáveis.",
-      items: [
-        {
-          company: "Grupo JR8",
-          role: "Finance Data Analyst Pleno",
-          period: "nov/2025 - atual",
-          description:
-            "Redução expressiva da inadimplência de 4% para 1% via estratégia orientada a dados. Desenvolvimento de dashboards financeiros, análises de rentabilidade, conciliações bancárias e automação de processos no ERP.",
-        },
-        {
-          company: "ProPonto",
-          role: "Business Intelligence e Gestão de Contas",
-          period: "out/2023 - nov/2025",
-          description:
-            "Dashboards e relatórios em Power BI, análises com bases de dados, automações em Excel, validador de dados e insights para campanhas de trade marketing.",
-        },
-        {
-          company: "Pavan Zanetti",
-          role: "PCP e Administração",
-          period: "fev/2021 - out/2023",
-          description:
-            "Planejamento e controle de produção, acompanhamento de compras, priorização de demandas, logística e controles administrativos em Excel.",
-        },
-        {
-          company: "Almeida & Scaglia Engenharia",
-          role: "Assistente administrativo",
-          period: "fev/2020 - mai/2020",
-          description:
-            "Atendimento, rotinas de recepção, atualização cadastral e apoio administrativo com pacote Office.",
-        },
-      ],
+      resumeCta: "Ver currículo",
     },
     credentials: {
       eyebrow: "Credenciais",
@@ -115,6 +66,38 @@ export const content = {
         "Dashboards e soluções analíticas apresentados a partir dos prints reais dos projetos desenvolvidos.",
       items: [
         {
+          title: "Painel de Faturamento e Metas",
+          status: "Concluído",
+          images: [
+            {
+              src: "/assets/projects/faturamento-capa.jpeg",
+              alt: "Dashboard Gerencial de Faturamento exibindo o panorama geral financeiro.",
+            },
+            {
+              src: "/assets/projects/faturamento-detalhes.jpeg",
+              alt: "Dashboard Gerencial de Faturamento detalhando métricas por unidade de negócio.",
+            },
+          ],
+          description:
+            "Desenvolvimento de dashboard gerencial para acompanhamento de indicadores comerciais e financeiros, permitindo uma análise consolidada do faturamento, atingimento de metas e desempenho das unidades de negócio. O projeto foi construído utilizando Power BI como plataforma principal e DAX para as medidas complexas, com customizações visuais exclusivas criadas através de HTML e CSS, proporcionando uma interface moderna e intuitiva.",
+          functionalityTitle: "Principais funcionalidades",
+          functionalities: [
+            "Acompanhamento consolidado do faturamento frente às metas estabelecidas",
+            "Análise de desempenho segmentada por unidades de negócio e períodos",
+            "Componentes visuais customizados integrados ao Power BI via HTML e CSS",
+            "Indicadores comerciais interativos e filtros dinâmicos de drill-down",
+          ],
+          techTitle: "Tecnologias",
+          technologies: [
+            "Power BI",
+            "DAX",
+            "HTML",
+            "CSS",
+            "Inteligência Comercial",
+            "Gestão Financeira",
+          ],
+        },
+        {
           title: "Painel de Custos com Pessoal",
           status: "Concluído",
           images: [
@@ -132,13 +115,6 @@ export const content = {
             "Gráfico de pizza com distribuição percentual de custo por setor",
             "Filtros dinâmicos por mês, ano e nome do funcionário",
             "Componentes HTML customizados integrados ao Power BI",
-          ],
-          metricsTitle: "Métricas do projeto",
-          metrics: [
-            ["40", "Funcionários"],
-            ["R$ 207k", "Custo total monitorado"],
-            ["6", "Setores analisados"],
-            ["3", "Filtros interativos"],
           ],
           techTitle: "Tecnologias",
           technologies: [
@@ -172,13 +148,6 @@ export const content = {
             "Validação de lista de valores permitidos por coluna",
             "Contagem esperada de linhas com alerta de divergência",
             "Localização precisa do erro no formato ColunaLinha, como C12 e F7",
-          ],
-          metricsTitle: "Métricas do projeto",
-          metrics: [
-            ["5", "Tipos de validação"],
-            ["88", "Linhas monitoradas"],
-            ["10", "Colunas validadas"],
-            ["22", "Distribuidores rastreados"],
           ],
           techTitle: "Tecnologias",
           technologies: [
@@ -221,13 +190,6 @@ export const content = {
             "Priorização estratégica cruzando maturidade de mercado com score de potencial",
             "Pipeline de leads com segmento, classificação e sugestão de próximo passo comercial",
             "Alertas de oportunidades perdidas, enriquecimento de e-mail e empresas veteranas",
-          ],
-          metricsTitle: "Métricas do projeto",
-          metrics: [
-            ["1.967", "Empresas analisadas"],
-            ["185", "Leads premium"],
-            ["632", "Prospects prioritários"],
-            ["91,8", "Score médio do pipeline"],
           ],
           techTitle: "Tecnologias",
           technologies: [
@@ -276,13 +238,6 @@ export const content = {
             "Desempenho por faixa de velocidade",
             "Previsão de tendência para os próximos 6 meses com intervalo de confiança",
           ],
-          metricsTitle: "Métricas do projeto",
-          metrics: [
-            ["502 K", "Assinantes analisados"],
-            ["8 meses", "Série histórica"],
-            ["5", "Regiões comparadas"],
-            ["6 meses", "Horizonte de previsão"],
-          ],
           techTitle: "Tecnologias",
           technologies: [
             "Power BI",
@@ -326,8 +281,6 @@ export const content = {
   },
   en: {
     nav: {
-      about: "About",
-      experience: "Experience",
       credentials: "Credentials",
       projects: "Projects",
       skills: "Skills",
@@ -342,54 +295,7 @@ export const content = {
       stack: "Power BI • Python • SQL • DAX • Power Query • Financial Analysis",
       projectCta: "View projects",
       contactCta: "Get in touch",
-    },
-    about: {
-      title: "About",
-      paragraphs: [
-        "Mid-Level Financial Data Analyst focused on transforming financial and operational data into clear indicators that support strategic decisions.",
-        "At JR8 Group, she works with financial analysis, accounts receivable controls and management reports. Recently, she led a data-driven initiative that reduced company delinquency from 4% to 1%. Her background combines BI, account management, trade marketing, production planning and administration, connecting technical analysis with real business needs.",
-      ],
-      highlights: [
-        "Mid-Level Financial Data Analyst at JR8 Group",
-        "Experience in BI, account management, trade marketing, production planning and administrative routines",
-        "Work with bank reconciliation, management reports, and delinquency reduction (from 4% to 1%)",
-      ],
-    },
-    experience: {
-      eyebrow: "Career path",
-      title: "Professional experience",
-      description:
-        "A profile built across finance, BI, account management and operations, focused on turning scattered data into executive visibility, more reliable processes and actionable indicators.",
-      items: [
-        {
-          company: "Grupo JR8",
-          role: "Mid-Level Finance Data Analyst",
-          period: "Nov/2025 - present",
-          description:
-            "Significant delinquency reduction from 4% to 1% via data-driven strategy. Development of financial dashboards, profitability analysis, bank reconciliations, and ERP process automation.",
-        },
-        {
-          company: "ProPonto",
-          role: "Business Intelligence and Account Management",
-          period: "Oct/2023 - Nov/2025",
-          description:
-            "Power BI dashboards and reports, database-driven analysis, Excel automation, data validator development and insights for trade marketing campaigns.",
-        },
-        {
-          company: "Pavan Zanetti",
-          role: "Production Planning and Administration",
-          period: "Feb/2021 - Oct/2023",
-          description:
-            "Production planning and control, purchase follow-up, demand prioritization, logistics and administrative controls in Excel.",
-        },
-        {
-          company: "Almeida & Scaglia Engenharia",
-          role: "Administrative Assistant",
-          period: "Feb/2020 - May/2020",
-          description:
-            "Customer service, reception routines, registration updates and administrative support using Microsoft Office.",
-        },
-      ],
+      resumeCta: "View resume",
     },
     credentials: {
       eyebrow: "Credentials",
@@ -414,6 +320,38 @@ export const content = {
         "Dashboards and analytical solutions presented from real project screenshots.",
       items: [
         {
+          title: "Revenue & Goals Dashboard",
+          status: "Completed",
+          images: [
+            {
+              src: "/assets/projects/faturamento-capa.jpeg",
+              alt: "Managerial Revenue Dashboard showing the overall financial overview.",
+            },
+            {
+              src: "/assets/projects/faturamento-detalhes.jpeg",
+              alt: "Managerial Revenue Dashboard detailing metrics by business unit.",
+            },
+          ],
+          description:
+            "Development of a management dashboard for tracking commercial and financial indicators, allowing a consolidated analysis of revenue, goal achievement, and business unit performance. The project was built using Power BI as the main platform and DAX for complex measures, with custom visual adaptations created through HTML and CSS, providing a modern and intuitive interface.",
+          functionalityTitle: "Main features",
+          functionalities: [
+            "Consolidated tracking of revenue against established goals",
+            "Performance analysis segmented by business units and periods",
+            "Custom visual components integrated into Power BI via HTML and CSS",
+            "Interactive commercial indicators and dynamic drill-down filters",
+          ],
+          techTitle: "Technologies",
+          technologies: [
+            "Power BI",
+            "DAX",
+            "HTML",
+            "CSS",
+            "Commercial Intelligence",
+            "Financial Management",
+          ],
+        },
+        {
           title: "Payroll Cost Dashboard",
           status: "Completed",
           images: [
@@ -431,13 +369,6 @@ export const content = {
             "Pie chart with percentage cost distribution by department",
             "Dynamic filters by month, year and employee name",
             "Custom HTML components integrated into Power BI",
-          ],
-          metricsTitle: "Project metrics",
-          metrics: [
-            ["40", "Employees"],
-            ["R$ 207k", "Total cost monitored"],
-            ["6", "Departments analyzed"],
-            ["3", "Interactive filters"],
           ],
           techTitle: "Technologies",
           technologies: [
@@ -471,13 +402,6 @@ export const content = {
             "Allowed-value list validation by column",
             "Expected row count checks with divergence alerts",
             "Precise error location in Excel-style notation, such as C12 and F7",
-          ],
-          metricsTitle: "Project metrics",
-          metrics: [
-            ["5", "Validation types"],
-            ["88", "Rows monitored"],
-            ["10", "Columns validated"],
-            ["22", "Distributors tracked"],
           ],
           techTitle: "Technologies",
           technologies: [
@@ -520,13 +444,6 @@ export const content = {
             "Strategic prioritization crossing market maturity with potential score",
             "Lead pipeline with segment, classification and suggested commercial next step",
             "Alerts for lost opportunities, e-mail enrichment and veteran companies",
-          ],
-          metricsTitle: "Project metrics",
-          metrics: [
-            ["1,967", "Companies analyzed"],
-            ["185", "Premium leads"],
-            ["632", "Priority prospects"],
-            ["91.8", "Average pipeline score"],
           ],
           techTitle: "Technologies",
           technologies: [
@@ -574,13 +491,6 @@ export const content = {
             "Regional growth comparison by state and macro-region",
             "Performance by speed range",
             "Six-month trend forecast with confidence interval",
-          ],
-          metricsTitle: "Project metrics",
-          metrics: [
-            ["502 K", "Subscribers analyzed"],
-            ["8 months", "Historical series"],
-            ["5", "Regions compared"],
-            ["6 months", "Forecast horizon"],
           ],
           techTitle: "Technologies",
           technologies: [

@@ -2,6 +2,8 @@
 
 Portfólio profissional de Izabelli Soriano, focado em BI, dados financeiros, dashboards, indicadores e análise para tomada de decisão.
 
+O site apresenta hero, credenciais, projetos em destaque, competências e contato. O conteúdo é bilíngue e controlado por query string.
+
 ## Stack
 
 - Next.js
@@ -9,6 +11,8 @@ Portfólio profissional de Izabelli Soriano, focado em BI, dados financeiros, da
 - TypeScript
 - Tailwind CSS
 - Lucide React
+- Radix UI Tabs
+- Framer Motion
 
 ## Como rodar localmente
 
@@ -34,11 +38,17 @@ npm run typecheck
 - Português: `/`
 - Inglês: `/?lang=en`
 
+O idioma do documento HTML acompanha a query `lang`, usando `pt-BR` por padrão e `en-US` para `/?lang=en`.
+
 ## Assets principais
 
 - Favicon: `app/icon.png`
-- Foto: `public/assets/izabelli.jpeg`
+- Foto do contato: `public/assets/izabelli.jpeg`
+- Foto do hero: `public/assets/izabelli-hero.jpeg`
 - Currículo: `public/assets/izabelli-soriano-cv.pdf`
+- Prints do projeto Painel de Faturamento e Metas:
+  - `public/assets/projects/faturamento-capa.jpeg`
+  - `public/assets/projects/faturamento-detalhes.jpeg`
 - Print do projeto Painel de Custos com Pessoal: `public/assets/projects/painel-custos-pessoal.jpeg`
 - Prints do projeto Validador de Dados Automatizado:
   - `public/assets/projects/validador-dados-com-erros.jpeg`
